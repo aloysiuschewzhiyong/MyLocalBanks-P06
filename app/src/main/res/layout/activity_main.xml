@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textViewSelectBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="@string/select_a_bank" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/textViewDBS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="@string/dbs_english" />
+
+    <TextView
+        android:id="@+id/textViewOCBC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="@string/ocbc_english" />
+
+    <TextView
+        android:id="@+id/textViewUOB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="@string/uob_english" />
+</LinearLayout>
